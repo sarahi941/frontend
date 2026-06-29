@@ -8,7 +8,7 @@ function MenuPublico(){
     }, []);
     return(
         <div className="container mt-5">
-            <h2 className="Menu Escolar">Menu Escolar</h2>
+            <h2 className="Menu Escolar">.</h2>
             <div className="row">
                 {productos.map(p=>(
                     <div className="col-md-4" key={p.id_productos}>
